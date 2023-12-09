@@ -1,0 +1,180 @@
+/* css variables :  The var() is an function  that is used to resused again and again many times
+           or
+    var() is an function that can be resused more than once time that is called function        
+
+    syntax : var(--custom-name,value)
+
+       --custom-name : This is an required parameters and it is used to called values multiple time because it is used as function.
+
+       value : value is an optional parameters becuase of its is used as substitutions if it is invalid its not used.
+*/
+
+:root{
+    --main-color:brown;
+    --head-font:impact;
+    --color:black;
+    --p-font:verdana;
+    --h-heading:cursive;
+    --margin:0;
+    --padding:0;
+}
+body 
+{
+    font-family: var(--head-font);
+    background: slategray;
+    margin: var(--margin);
+    padding: var(--padding);
+}
+#wrapper 
+{
+   border: 0px solid black;
+   width: 1000px;
+   background-color: white;
+   margin: 0 auto; 
+}
+#header 
+{
+    background-color: var(--main-color);
+    color: white;
+    height: 100px;
+    margin: 0;
+    font-family: var(--p-font);
+}
+#header h1 
+{
+    padding: 30px 0px 0px 20px;
+}
+#menu 
+{
+background-color: lightsalmon;
+}
+#menu ul 
+{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 10px 20px;
+}
+#menu ul li 
+{
+    display: inline-block;
+    padding: 20px 13px;
+   
+}
+#menu li a 
+{
+    color: var(--color);
+   
+    text-decoration: none;
+}
+#menu li a:hover 
+{
+    background: var(--main-color);
+    color: white;
+}
+
+#content 
+{
+width: 800px;
+min-height: 500px;
+padding: 15px;
+box-sizing: border-box;
+color: var(--color);
+ font-family: var(--p-font);
+ float: left;
+}
+
+#content h2 
+{
+color: var(--h-heading);
+}
+#content p 
+{
+color: var(--p-font);
+}
+#content a 
+{
+    color: var(--head-font);
+}
+
+#sidebar 
+{
+width: 200px;
+min-height: 500px;
+float: right;
+}
+#sidebar a 
+{
+    color: var(--p-font);
+    text-decoration: none;
+    padding: 20px 1px;
+}
+#footer 
+{
+    color: white;
+    background-color: var(--main-color);
+    text-align: center;
+    padding: 8px 25px;
+    clear: both !important;
+}
+
+/* media query */
+
+@media screen and (max-width:1020px)
+{
+ #wrapper
+ {
+    width: 800px;
+ } 
+ #content 
+ {
+    width: 80%;
+ }
+
+ #sidebar
+ {
+    width: 18%;
+ }
+
+}
+
+@media screen and (max-width:810px)
+{
+    #wrapper
+    {
+       width: 500px;
+    } 
+    #content 
+    {
+       width: 65%;
+    }
+   
+    #sidebar
+    {
+       width: 34%;
+    }
+}
+
+
+@media screen and (max-width:510px)
+{
+    
+    #wrapper
+    {
+       width: auto;
+    } 
+    #content 
+    {
+       width: 100%;
+       float: none !important;
+    }
+   
+    #sidebar
+    {
+       width: 100%;
+       float: none !important;
+    }
+}
+

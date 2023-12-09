@@ -1,0 +1,25 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+.border-img 
+{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    margin-top: 5%;
+    border: solid 15px transparent;
+    -webkit-border-image: url('../images/border.jpg') 32 round;
+    -moz-border-image: url('../images/border.jpg') 32 round;
+    -o-border-image: url('../images/border.jpg') 32 round;
+    border-image: url('../images/border.jpg') 32 round;
+/* 
+    -webkit-border-image: url('../images/border.jpg') 70 round;
+    -moz-border-image: url('../images/border.jpg') 70 round;
+    -o-border-image: url('../images/border.jpg') 70 round;
+    border-image: url('../images/border.jpg') 70 round; */
+}

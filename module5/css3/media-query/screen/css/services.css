@@ -1,0 +1,90 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: #be263c;
+}
+#content 
+{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex !important;
+    flex-direction: row !important;
+    margin-top: 3%;
+
+}
+.text-heading
+{
+    color: white;
+    font-size: 45px;
+    letter-spacing: 2px;
+    line-height: -2 !important;
+}
+.box1
+{
+    width: 33%;
+    height: auto;
+    margin: 5px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+   
+}
+/* media query for mobile resulations */
+@media only screen and (min-width:320px) and (max-width:480px)
+{
+    body 
+{
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden !important;
+    box-sizing: border-box !important;
+    background-color: rgba(255,0,0,0.5) !important;
+}
+.text-heading
+{
+    color: white !important;
+    font-size: 25px !important;
+    letter-spacing: 2px !important;
+    line-height: -2 !important;
+    text-shadow: 0px 2px black !important;
+    color: aliceblue !important;
+}
+#content 
+{
+    width: 90% !important;
+    height: auto !important;
+    margin: auto !important;
+    /* display: block !important;
+    flex-direction: row !important; */
+    /* display: grid;
+    grid-template-columns: auto auto; */
+    margin-top: 3% !important;
+    display: block !important;
+}
+.box1
+{
+    width: 80% !important;
+    height: auto !important;
+    margin: 5px !important;
+    margin-left: 10% !important;
+    background-color: white !important;
+    padding: 10px !important;
+    border-radius: 10px !important;
+}
+.box1:hover
+{
+    width: 80% !important;
+    height: auto !important;
+    background-color: lightblue !important;
+    transition: 2s ease all !important;
+}
+.box1 img 
+{
+    width: 50% !important;
+    height: 200px !important;
+} 
+}

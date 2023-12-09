@@ -1,0 +1,46 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    background-color: lightgray;
+}
+#content
+{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding: 8px;
+}
+.content-section
+{
+    width: 50%;
+    height: auto;
+    margin: 5px;
+    padding: 20px;
+    margin-left: 25%;
+    margin-top: 5%;
+    background-color: white;
+}
+
+/* mobile resulations media query */
+@media only screen and (min-width:320px) and (max-width:480px)
+{
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    background-color: black;
+}
+.content-section
+{
+    width: 80%;
+    height: auto;
+    margin: 5px;
+    padding: 20px;
+    margin-left: 10%;
+    margin-top: 5%;
+    background-color: white;
+}
+} 

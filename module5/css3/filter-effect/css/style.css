@@ -1,0 +1,92 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+.border-rad1,.border-rad2,.border-rad3,.border-rad4 
+{
+    width:350px;
+    height: 350px;
+    margin: auto;
+    padding:20px;
+    margin-top: 5%;
+    border: solid 5px;
+    /* border-radius: 50%; */
+    /* overflow-x: auto; */
+    /* overflow: auto; */
+    text-align: justify;
+    border-start-end-radius:25px;
+  
+}
+
+.border-rad1 img 
+{
+    width: 100%;
+    height: 350px;
+    border: outset 8px orange;
+    border-radius: 50%;
+}
+
+.border-rad1 img:hover 
+{
+    width: 100%;
+    height: 350px;
+    filter: grayscale(100%);
+    
+}
+
+
+.border-rad2 img 
+{
+    width: 100%;
+    height: 350px;
+    border: outset 8px orange;
+    border-radius: 50%;
+}
+
+.border-rad2 img:hover 
+{
+    width: 100%;
+    height: 350px;
+    filter: brightness(60%);
+    
+}
+
+
+.border-rad3 img 
+{
+    width: 100%;
+    height: 350px;
+    border: outset 8px orange;
+    border-radius: 50%;
+}
+
+.border-rad3 img:hover 
+{
+    width: 100%;
+    height: 350px;
+    filter: opacity(0.1);
+    
+}
+
+
+
+.border-rad4 img 
+{
+    width: 100%;
+    height: 350px;
+    border: outset 8px orange;
+    border-radius: 50%;
+    transition: 2s ease all;
+}
+
+.border-rad4 img:hover 
+{
+    width: 100%;
+    height: 350px;
+    filter: blur(15px);
+    transform: rotate(720deg);
+    
+}

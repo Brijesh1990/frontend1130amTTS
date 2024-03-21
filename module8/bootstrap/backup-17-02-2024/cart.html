@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+
+    <!-- container -->
+    <div class="container-fluid bg-primary text-white p-3 mt-0 flipkart-header sticky-top">
+    <div class="row">
+        <div class="col-md-2 mt-2">
+            <a href="index.html"><img src="images/logo.png" class="img-fluid w-75 ms-5 logo"></a>
+        </div>
+        <div class="col-md-5 mt-2">
+          <div class="input-group">
+            <input type="text" name="search" placeholder="Search for Products, brands and many more" class="form-control">
+            <label class="input-group-text bg-white border border-0"><span class="bi bi-search"></span></label>
+          </div>  
+        </div>
+        <div class="col-md-5 mt-2">
+            <ul class="header-link">
+                <li><button type="button" data-bs-toggle="modal" data-bs-target="#log" class="btn btn-sm bg-white text-black">Login <span class="bi bi-person-add"></span></button></li>
+                <li><a href="#" class="fs-6">Flipkart <span class="bi bi-circle-fill fs-6 text-danger" style="font-size: 10px !important; -webkit-text-stroke: 2px;"></span></a></li>
+                <li><a href="seller.html">Become a Seller</a></li>
+                <li class="dropdown"><a class="dropdown-toggle" data-bs-toggle="dropdown" href="#">More</a>
+                  <ul class="dropdown-menu bg-primary p-2 w-100">
+                   <li><a href="notifications.html">Notifications</a></li>
+                   <li><a href="#">24x7 customer support</a></li>
+                   <li><a href="#">Download App</a></li>
+                   <li><a href="#">Advertises</a></li>
+                  </ul>
+                </li>
+                <li><a href="cart.html"><span class="bi bi-cart"></span> Cart</a></li>
+            </ul>
+            
+        </div> 
+    </div>
+    </div>
+
+
+
+    <!-- content -->
+    <div class="container p-5 bg-white mt-5">
+        <!-- empty cart -->
+        <div class="col-md-5 mx-auto">
+        <img src="images/empty.webp" class="w-75 ms-5">
+        <h1 class="fs-3 text-center">Missing Cart items?</h1>
+        <p class="text-center">Login to see the items you added previously</p>
+        <p class="text-center"><button type="button" class="btn btn-lg border border-0 btn-danger w-50 p-2" data-bs-toggle="modal" data-bs-target="#log">Login</button></p>
+       </div>
+    </div>
+
+
+    <!-- footer -->
+<div id="footer" class="bg-dark p-5 mt-5">
+<div class="row">
+    <div class="col-md-7">
+        <div class="row">
+        <div class="col-md-3">
+            <ul class="nav-footer">
+                <li><a href="" class="text-secondary fs-6">About</a></li>
+                <li><a href="" class="fs-5">contact Us</a></li>
+                <li><a href="" class="fs-5">About Us</a></li>
+                <li><a href="" class="fs-5">Carrers</a></li>
+                <li><a href="" class="fs-5">Flipkart Stories</a></li>
+                <li><a href="" class="fs-5">Press</a></li>
+                <li><a href="" class="fs-5">Corporate Info</a></li>
+            </ul>
+        </div>
+
+        <div class="col-md-3">
+            <ul class="nav-footer">
+                <li><a href="" class="text-secondary fs-6">Group Componies</a></li>
+                <li><a href="" class="fs-5">myntra</a></li>
+                <li><a href="" class="fs-5">Shopclues</a></li>
+                <li><a href="" class="fs-5">cleartrip</a></li>
+        
+            </ul>
+        </div>
+
+        <div class="col-md-3">
+            <ul class="nav-footer">
+                <li><a href="" class="text-secondary fs-6">Help</a></li>
+                <li><a href="" class="fs-5">Payments</a></li>
+                <li><a href="" class="fs-5">FAQ</a></li>
+                <li><a href="" class="fs-5">Shipping</a></li>
+                <li><a href="" class="fs-5">Cancellations</a></li>
+              
+            </ul>
+        </div>
+
+        <div class="col-md-3">
+            <ul class="nav-footer border border-0 border-end border-white">
+                <li><a href="" class="text-secondary fs-6">Consumer Policy</a></li>
+                <li><a href="" class="fs-5">Cancelations<br>&Returns</a></li>
+                <li><a href="" class="fs-5">Terms of Uses</a></li>
+                <li><a href="" class="fs-5">Security</a></li>
+                <li><a href="" class="fs-5">Privacy</a></li>
+                <li><a href="" class="fs-5">Sitemap</a></li>
+                <li><a href="" class="fs-5">EPR</a></li>
+            </ul>
+
+        </div>
+        
+        </div>
+     
+    </div>
+    
+    <div class="col-md-5">
+        <div class="row">
+            <div class="col-md-6">
+                <ul class="nav-footer ms-2">
+                    <li><a href="" class="text-secondary fs-6">Mail us</a></li>
+                    <li><a href="" class="fs-6">WJJG+XXV, 5th Block, Koramangala, Bengaluru, Karnataka 560034</a></li>
+                    
+                </ul>
+           
+            </div>
+            <div class="col-md-6">
+                <ul class="nav-footer ms-5">
+                    <li><a href="" class="text-secondary fs-6">Mail us</a></li>
+                    <li><a href="" class="fs-6">WJJG+XXV, 5th Block, Koramangala, Bengaluru, Karnataka 560034</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+
+    <!-- login modal -->
+    <div class="modal fade" role="dialog" id="log">
+        <div class="modal-dialog" style="min-width: 70%;">
+            <div class="modal-content">
+                <div class="row">
+                    <div class="col-md-5 bg-primary login-txt">
+                        <h1 class="text-white p-2 mt-5">Login</h1>
+                        <p class="p-2 text-white">Get access to your Orders, Wishlist and Recommendations</p>
+                        <p><img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/login_img_c4a81e.png" class="mt-5 p-5" style="width:300px !important"></p>
+                    </div>
+                    <div class="col-md-7 p-5">
+                        <div class="input-group mt-2">
+                            <input type="text" name="email" placeholder="Enter Email/Mobile Numbers *" class="form-control">
+                            <button type="button" class="btn btn-sm btn-danger ms-4 border border-0" data-bs-dismiss="modal">&times;</button>
+
+                        </div>
+                        <div class="input-group mt-2">
+                            <p>By continuing, you agree to Flipkart's Terms of Use and Privacy Policy.</p>
+                        </div>
+                        <div class="input-group mt-2">
+                            <input type="submit" name="signin" value="Request OTP" class="btn bt-lg btn-danger w-100 p-3">
+                        </div>
+
+                        <div class="input-group mt-5">
+                            <b>New to Flipkart? <a href="#" data-bs-toggle="modal" data-bs-target="#reg" class="ms-1"> Create an account</a></b>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- register modal -->
+    <div class="modal fade" role="dialog" id="reg">
+        <div class="modal-dialog" style="min-width: 70%;">
+            <div class="modal-content">
+                <div class="row">
+                    <div class="col-md-5 bg-primary login-txt">
+                        <h1 class="text-white p-2 mt-5">Register</h1>
+                        <p class="p-2 text-white">Get access to your Orders, Wishlist and Recommendations</p>
+                        <p><img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/login_img_c4a81e.png" class="mt-5 p-5" style="width:300px !important"></p>
+                    </div>
+                    <div class="col-md-7 p-5">
+                        <div class="input-group mt-2">
+                            <input type="text" name="email" placeholder="Enter Email/Mobile Numbers *" class="form-control">
+                            <button type="button" class="btn btn-sm btn-danger ms-4 border border-0" data-bs-dismiss="modal">&times;</button>
+
+                        </div>
+
+                        <div class="input-group mt-2">
+                            <input type="password" name="pass" placeholder="Enter Email/Password *" class="form-control">
+                        </div>
+
+                        
+                        <div class="input-group mt-2">
+                            <input type="text" name="phone" placeholder="Enter Phone *" class="form-control">
+                        </div>
+                        <div class="input-group mt-2">
+                            <p>By continuing, you agree to Flipkart's Terms of Use and Privacy Policy.</p>
+                        </div>
+                        <div class="input-group">
+                            <input type="submit" name="signup" value="SignUp" class="btn bt-lg btn-danger w-100 p-3">
+                        </div>
+
+                        <div class="input-group mt-5">
+                            <b>Already on  Flipkart? <a href="#" data-bs-toggle="modal" data-bs-target="#log" class="ms-1"> SignIn here</a></b>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: antiquewhite !important;
+}
+.header-link
+{
+    width: 100%;
+    height: auto;
+}
+.header-link li 
+{
+    display: inline-block;
+    padding: 5px 5px;
+    list-style: none;
+    text-decoration: none;
+}
+.header-link a 
+{
+    color: white;
+    text-decoration: none;
+}
+.nav-footer li
+{
+display: block;
+}
+.nav-footer a 
+{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+@media only screen and (min-width:320px) and (max-width:480px)
+{
+.logo 
+{
+width: 30% !important;
+height: auto !important;
+margin: auto !important;
+margin-left: 35% !important;
+margin-bottom: 5%;
+
+}
+.manage-profile
+{
+background-color: white !important;
+margin: 0px !important;
+padding: 50px !important;
+margin-top: 5% !important;
+}
+.login-txt
+{
+display: none !important;
+}
+.border-white
+{
+    display: none !important;
+}
+
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='https://code.jquery.com/jquery-3.7.1.min.js'></script>
+    <script>
+        $("document").ready(function(){
+            $("#btn").click(function(){
+                $("#lg").slideToggle(2000);
+                $("#rg").css({"display":"none"});                 
+            });
+
+            $("#btn1").click(function(){
+                $("#rg").slideToggle(2000);
+                $("#lg").css({"display":"none"});
+            })
+        })
+    </script>
+    <style>
+        body 
+        {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            box-sizing: border-box;
+        }
+        #login
+        {
+            width: 100%;
+            height: auto;
+            padding: 25px;
+            background-color: black;
+            color: white;
+            position: relative;
+        }
+        #btn,#btn1 
+        {
+            width: 15%;
+            height: auto;
+            margin: 3px;
+            padding: 8px;
+            color: white;
+            background-color: blue;
+            border: none;
+            float: right;
+        }
+
+        #lg,#rg
+        {
+            width: 40%;
+            height: auto;
+            margin: auto;
+            margin-top: 5%;
+            padding: 25px;
+            box-shadow: 4px 4px 0px 0px lightgray;
+            display: none;
+        }
+        #lg h1 
+        {
+            font-size: 45px;
+            letter-spacing: 1px;
+            text-decoration: underline;
+            color: blue;
+        }
+        input[type="text"],input[type="password"]
+        {
+            width: 400px;
+            padding: 8px; 
+        }
+        input[type="submit"]
+        {
+            width: 180px;
+            height: auto;
+            padding: 10px;
+            background-color: blue;
+            color: white;
+            border: none;
+            
+        }
+
+        
+        input[type="radio"]
+        {
+            width: auto;
+            height: auto;
+            padding: 10px;
+        
+            
+        }
+        input[type="reset"]
+        {
+            width: 180px;
+            height: auto;
+            padding: 10px;
+            background-color: red;
+            color: white;
+            border: none;
+            
+        }
+
+    </style> 
+</head>
+<body>
+    <section id="login">
+        <button type="button" id="btn">Login</button> | <button id="btn1">Register</button>
+    </section>
+    <section id="lg">
+    <h1>Login Form</h1>
+    <form>
+        <input type="text" id="em" placeholder="Email *">
+        <br><br>
+        
+        <input type="password" id="pass" placeholder="Password *">
+        <br><br>
+        
+        <input type="submit" value="Login" placeholder="Email *">
+        <br><br>
+    </form>
+    </section>
+
+
+    
+    <section id="rg">
+        <h1>Register Form</h1>
+        <form>
+            <input type="text" id="em" placeholder="Email *">
+            <br><br>
+            
+            <input type="password" id="pass" placeholder="Password *">
+            <br><br>
+            
+            <input type="password" id="cpass" placeholder="Confirmed Password *">
+            <br><br>
+            
+            <input type="password" id="pass" placeholder="Phone *">
+            <br><br>
+            
+            Male<input type="radio" id="pass" placeholder=" *" value="male">
+            
+            Female<input type="radio" id="pass" placeholder=" *" value="female">
+            <br><br>
+            
+            <input type="submit" value="Register" placeholder="Email *">
+            <input type="reset" value="Reset" placeholder="Email *">
+            <br><br>
+        </form>
+        </section>
+    
+</body>
+</html>

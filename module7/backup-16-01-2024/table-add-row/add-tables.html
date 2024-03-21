@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <!-- jquery called -->
+    <script src='https://code.jquery.com/jquery-3.7.1.min.js'></script>
+    <script>
+    $(document).ready(function(){
+        $("#btn").click(function(){
+
+            $("table").append("<tr align='center'><td>1002</td><td>Mitesh</td><td>Patel</td><td>24</td><td>45656</td></tr>")
+
+        })
+    })
+    </script>
+    <style>
+        #btn 
+        {
+            width: 100px;
+            height: auto;
+            padding: 5px;
+            margin-left: 5%;
+            border: none;
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+
+    <button type="button" id="btn">Add Row >></button>
+    <br><br>
+    <table align="center" border="1" cellspacing="2" cellpadding="2" width="90%">
+        <tr>
+            <th>id</th>
+            <th>firstname</th>
+            <th>lastname</th>
+            <th>age</th>
+            <th>salary</th>
+        </tr>
+        <tr align="center">
+        
+            <td>1001</td>
+            <td>Brijesh</td>
+            <td>Pandey</td>
+            <td>32</td>
+            <td>25121</td>
+        </tr>
+    </table>
+    
+</body>
+</html>

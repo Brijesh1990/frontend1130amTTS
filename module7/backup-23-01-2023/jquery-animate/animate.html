@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<title>Page Title</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+<style>
+#demo
+{
+width: 85px;
+height: 85px;
+background-color: red;
+}
+</style>
+
+
+<script src='https://code.jquery.com/jquery-3.7.1.min.js'></script>
+<script>
+
+
+//$(document).ready(function(){
+
+//$("#btn").click(function(){
+
+//   $("#demo").animate({
+
+
+//      left:'200px',
+//      top:'200px',
+//      height:'toggle',
+//      opacity:'0.8'
+//   });
+
+
+
+//$("#demo").animate({
+// left: '250px',
+// opacity: '0.5',
+// height: '150px',
+// width: '150px'
+
+// left: '250px',
+// height: '+=150px',
+// width: '+=150px'
+
+// height: 'toggle'
+//});
+
+
+// var div = $("div");
+// div.animate({height: '300px', opacity: '0.4'}, "slow");
+// div.animate({width: '300px', opacity: '0.8'}, "slow");
+// div.animate({height: '85px', opacity: '0.4'}, "slow");
+// div.animate({width: '85px', opacity: '0.8'}, "slow");
+
+
+
+// var div = $("div");
+// div.animate({height: '300px', opacity: '0.4'}, "slow");
+// div.animate({width: '300px', opacity: '0.8'}, "slow");
+// div.animate({height: '65px', opacity: '0.4'}, "slow");
+// div.animate({width: '65px', opacity: '0.8'}, "slow");
+// div.animate({fontSize:'20px', opacity: '0.8'}, "slow");
+
+$(document).ready(function()
+{
+$("#btn").click(function()
+{
+
+$("#demo").animate(
+{
+left: '250px',
+opacity: '0.5',
+height: '150px',
+width: '150px'
+   
+});
+
+});
+
+});
+
+</script>
+</head>
+<body>
+
+
+
+<div id="demo" style="position: absolute;">Brijesh</div>
+<br>
+<button type="button" id="btn" style="top: 28%; position: absolute;">Click me</button>
+
+</body>
+</html>

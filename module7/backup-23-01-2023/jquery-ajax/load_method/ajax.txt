@@ -1,0 +1,2 @@
+ajax is used for load server data without page refresh
+ajax are used to asynchronised data from server without page referesh

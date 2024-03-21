@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <!-- jquery CDN -->
+    <script src='https://code.jquery.com/jquery-3.7.1.min.js'></script>
+    <script>
+     $(document).ready(function(){
+        $("#btn").click(function(){
+            // print dynamic name via DOM element
+            // var nm=document.getElementById("name").value;
+            // alert('Your name is :'+nm);
+            var age=prompt('Please Enter your age :');
+            var chk=age>=18?"You are eligible for vote":"You are not eligible for Vote";
+            document.getElementById("demo").innerHTML=chk;
+            //alert('Your name is :'+nm)
+        })
+     })
+    </script>    
+</head>
+<body>
+
+    <p id="demo"></p>
+    <button type="button" id="btn">click on Me !</button>
+    
+</body>
+</html>

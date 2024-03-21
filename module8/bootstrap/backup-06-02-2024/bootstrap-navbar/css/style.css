@@ -1,0 +1,31 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+}
+.bg-heading
+{
+    background-color: blue !important;
+}
+.navbar 
+{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+.nav-link li
+{
+display: inline-block;
+padding: 5px 25px;
+}
+.nav-link a 
+{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    text-transform: capitalize;
+}
+.dropdown:hover .dropdown-menu
+{
+    display: block;
+}

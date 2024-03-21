@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='https://code.jquery.com/jquery-3.7.1.min.js'></script>
+     <!--slider cycle plugins  -->
+    <script src="https://malsup.github.io/jquery.cycle.all.js"></script>
+    <script>
+        $(document).ready(function(){
+            // $("#slide").cycle("fade");
+            //$("#slide").cycle("shuffle");
+            $("#slide").cycle("shuffle,turnLeft,turnRight,zoom,fade");
+        })
+    </script> 
+
+<style>
+        body 
+        {
+            margin: 0;
+            padding: 0;
+        }
+        #slider
+        {
+            width: 100%;
+            height: 400px;
+        }
+        #slide img
+        {
+            width: 100%;
+            height: 400px;
+
+        }
+    </style>
+</head>
+<body>
+
+    <section id="slider">
+        <div id="slide">
+        <img src="https://i.pinimg.com/originals/b6/c9/17/b6c9173bd58f62f49eb550635a5e259f.jpg">
+
+        <img src="https://images.vexels.com/content/196482/preview/buy-online-sale-slider-template-002a39.png">
+
+        <img src="https://images.vexels.com/content/194731/preview/shop-online-web-slider-design-e2862a.png">
+        </div>
+    </section>
+    
+</body>
+</html>

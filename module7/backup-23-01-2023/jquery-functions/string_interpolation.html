@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='https://code.jquery.com/jquery-3.7.1.min.js'></script>
+    <script>
+    $(document).ready(function(){
+
+     $("#btn").click(function(){
+      
+        // string 
+        // var nm="My name is Brijesh";
+        // console.log(nm);
+
+        // var para="In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate
+        //  the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.";
+
+        //  console.log(para);
+
+
+        // string literals or string templates
+        
+        // var para=`In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate
+        //  the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.`;
+
+        //  console.log(para);
+
+
+        var fname=`Brijesh`;
+        var lname=`Pandey`;
+        // string print
+        // console.log(fname + "\n" + lname);
+        console.log(`${fname} \n ${lname}`);  // `${}` string interpolation
+
+
+     })
+
+    })
+    </script>
+</head>
+<body>
+
+    <button type="button" id="btn">Click Me</button>
+    
+</body>
+</html>

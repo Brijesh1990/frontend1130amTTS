@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<title>Page Title</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+<script src='https://code.jquery.com/jquery-3.7.1.min.js'></script>
+<script>
+$(document).ready(function(){
+$("#acc").click(function(){
+$("#login").fadeToggle(2000);
+})
+});
+
+</script>
+
+<!-- wow slider plugins -->
+<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<!-- End WOWSlider.com HEAD section -->
+<style>
+body 
+{
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+background-color: lightgray;
+}
+#navbar 
+{
+width: 100%;
+height: auto;
+padding: 5px 15px;
+background-color: black;
+
+}
+#navbar ul li 
+{
+display: inline-block;
+padding: 2px 25px;
+}
+#navbar a 
+{
+list-style-type: none;
+text-decoration: none;
+color: white;
+
+
+}
+
+
+#login
+{
+width: 60%;
+height:250px;
+margin: auto;
+box-shadow: 5px 5px 0px 0px;
+padding: 25px;
+margin-top: 5%;
+display: none;
+background-color: white;
+position: relative;
+top: 0 !important;
+left: 0;
+bottom: 0;
+
+}
+
+#login input 
+{
+width: 300px;
+height: auto;
+padding: 8px;
+}
+#login input[type="submit"]
+{
+width: 150px;
+height: auto;
+padding: 8px;
+background-color: red;
+color: white;
+border: none;
+}
+
+#slider 
+{
+width: 90%;
+height: auto;
+background-color: transparent;
+margin-left: 5%;
+margin-top: 2%;
+}
+.content 
+{
+position: absolute !important;
+
+}
+
+</style>
+</head>
+<body>
+<!-- navbar -->
+<nav id="navbar">
+
+
+<ul>
+<li><a href="">Home</a></li>
+<li><a href="">Gallery</a></li>
+<li><a href="">Services</a></li>
+<li><a href="">Our Services</a></li>
+<li><a href="#" id="acc">Account</a></li>
+
+</ul>
+
+</nav>
+
+<!-- add wow slider -->
+<section id="slider">
+
+<div id="wowslider-container1">
+<div class="ws_images">
+<ul>
+<li><img src="data1/images/1.png" alt="1" title="1" id="wows1_0"/></li>
+<li><img src="data1/images/2.jpg" alt="2" title="2" id="wows1_1"/></li>
+<li><a href="http://wowslider.net"><img src="data1/images/3.jpg" alt="javascript photo gallery" title="3" id="wows1_2"/></a></li>
+<li><img src="data1/images/4.jpg" alt="4" title="4" id="wows1_3"/></li>
+</ul></div>
+<div class="ws_bullets"><div>
+<a href="#" title="1"><span><img src="data1/tooltips/1.png" alt="1"/>1</span></a>
+<a href="#" title="2"><span><img src="data1/tooltips/2.jpg" alt="2"/>2</span></a>
+<a href="#" title="3"><span><img src="data1/tooltips/3.jpg" alt="3"/>3</span></a>
+<a href="#" title="4"><span><img src="data1/tooltips/4.jpg" alt="4"/>4</span></a>
+</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">responsive slider</a> by WOWSlider.com v9.0</div>
+<div class="ws_shadow"></div>
+</div>	
+
+</section>
+
+
+<!-- content -->
+<section id="login">
+<div class="content">
+<h1>Login form</h1>
+<form>
+<input type="text" placeholder="Email *">
+<br><br>
+
+<input type="password" placeholder="Passsword *">
+<br><br>
+<input type="submit" value="SignIN">
+</form>
+</div>
+</section>
+
+
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+</body>
+</html>

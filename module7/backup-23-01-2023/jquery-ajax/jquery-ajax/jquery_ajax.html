@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <script src='https://code.jquery.com/jquery-3.7.1.min.js'></script>
+    <!-- ajax with jquery -->
+    <script>
+        function str(val)
+        {
+            $.ajax({
+                type:"GET",
+                url:"getdata.html",
+                data:"cmp="+val,
+                success:function(data)
+                {
+                 $("#shw").html(data);    
+                }   
+        
+            });
+        }
+    </script>
+</head>
+<body>
+
+    <center>
+        <label>select company</label>
+        <select name="cmp" id="cmp" onchange="return str(this.value)">
+            <option value="">-select company-</option>
+            <option value="">Tops Technology</option>
+            <option value="">Infosys</option>
+            
+        </select>
+    </center>
+
+    <table id="shw" align="center" width="80%">
+        <tr>
+            
+        </tr>
+
+    </table>
+    
+</body>
+</html>

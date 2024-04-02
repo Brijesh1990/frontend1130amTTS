@@ -156,6 +156,31 @@ display: block;
     background-color: var(--bg-success);
 }
 
+#shivansh-footer
+{
+    
+width: 100%;   
+height: auto !important;
+margin: auto;
+padding: 20px;
+background-color: var(--bg-success1);
+background-size: 100% 100%;
+border-radius: 0px 0px 0px 0px !important;
+}
+.footer-links ul li 
+{
+    padding: 5px 8px;
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+}
+.footer-links a 
+{
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+}
+
 @media only screen and (max-width:320px)
 {
 #shivansh-header-top
@@ -206,6 +231,13 @@ margin-bottom: 0 !important;
 {
 margin: 0 !important;
 }
+.container-fluid
+{
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
 }
 
 @media only screen and (max-width:553px)
@@ -247,6 +279,13 @@ margin-bottom: 0 !important;
 .get-started
 {
 margin: 0 !important;
+}
+.container-fluid
+{
+width: 80% !important;
+height: auto !important;
+margin: auto !important;
+padding: 0 !important;
 }
 }
 @media only screen and (max-width:767px)
@@ -290,6 +329,13 @@ margin-bottom: 0 !important;
 {
 margin: 0 !important;
 }
+.container-fluid
+{
+    width: 80% !important;
+    height: auto !important;
+    margin: auto !important;
+    padding: 0 !important;
+}
 }
 
 @media only screen and (max-width:1024px)
@@ -331,5 +377,12 @@ margin-bottom: 0 !important;
 .get-started
 {
 margin: 0 !important;
+}
+.container-fluid
+{
+    width: 80% !important;
+    height: auto !important;
+    margin: auto !important;
+    padding: 0 !important;
 }
 }
